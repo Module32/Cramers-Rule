@@ -27,7 +27,7 @@ Have fun with the program. :)
 
 ###### Copyright 2021© Cramers Rule™ Program.
 
-###### Our program is protected under the MIT license. You may fork our code and adjust it to your needs- however, please do not duplicate the code and commercially release it under your own name. If you have any suggestions, ideas, or improvements for Marble, we will be more than happy to collaborate with you and see if we can bring them to life.
+###### Our program is protected under the MIT license. You may fork our code and adjust it to your needs- however, please do not duplicate the code and commercially release it under your own name. If you have any suggestions, ideas, or improvements for Cramers Rule, we will be more than happy to collaborate with you and see if we can bring them to life.
 
 ###### Cramers Rule is part of Open Terminal™, a project started by Module32 and MrNames to create powerful software and hardware for the general public. We also worked with "yeet!" on Discord to create Cramers Rule, though he did nothing (jk we still love you bro)
 
