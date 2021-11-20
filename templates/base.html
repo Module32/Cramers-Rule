@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cramers Rule - It's Cramer's Rule, idiot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <ul style="margin-top: -40px;">
+  <li><a href="/">Home</a></li>
+</ul>
+  <div class="all">
+<div id="content">{% block content %}{% endblock %}</div>
+</div>
+<footer style="margin-top: 50px;">
+  <h3>Cramers Rule©</h3>
+  <p style="font-size: 10px;">Copyright 2021-<script type="text/javascript">document.write( new Date().getFullYear() );</script>. Cramers Rule is owned and managed by Open Terminal.</p>
+  <h6 style="float: right; margin-top: -100px; margin-right: 125px;"><a href="https://unlockapi.coefficient.repl.co/about" class="foot">About</a><br><a href="https://unlockapi.coefficient.repl.co/faq" class="foot">FAQ</a><br><a href="https://github.com/Module32/Cramers-Rule" class="foot">GitHub</a><br></h6>
+
+  <h6 style="float: right; margin-top: -100px;"><a href="#" class="foot">Terms of Service</a><br><a href="#" class="foot">Privacy Policy</a><br></h6>
+</footer>
+<script src="{{ url_for('static', filename='js/script.js') }}">
+</script>
+</body>
+</html>

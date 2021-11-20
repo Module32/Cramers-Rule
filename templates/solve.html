@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+  {% block content %}
+  <h1 style="text-size: 40px;">Solve a system of equations</h1>
+    <h3>Fine, if you really want to, nerd</h3>
+    <hr>
+    <img src="{{ url_for('static', filename='pics/cramer-equations.png') }}" style="float: right;">
+    <div style="display: flex;">
+      <div style="flex-direction: row; margin: 10px;">
+        <form name="addForm" id="addForm" method="POST" action="{{ url_for('solution') }}">
+              <h4>A value of matrix</h4>
+              <input type="number" name="a" id="a">
+              <h4>B value of matrix</h4>
+              <input type="number" name="b" id="b"><br><br>
+              <h4>C value of matrix</h4>
+              <input type="number" name="c" id="c"><br><br>
+              <h4>D value of matrix</h4>
+              <input type="number" name="d" id="d"><br><br>
+              <h4>Answer for first equation (what the equation is equal to)</h4>
+              <input type="number" name="ans1" id="ans1"<br><br>
+              <h4>Answer for second equation (what the equation is equal to)</h4>
+              <input type="number" name="ans2" id="ans2"><br><br>
+              <button type="submit">solve it, nerd</button>
+        </form>
+      </div>
+    </div>
+  {% endblock %}
